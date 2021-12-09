@@ -10,6 +10,7 @@
 <body>
     <button onclick="to_register()">转注册页面</button>
     <button onclick="to_login()">转登陆界面</button>
+    <button onclick="to_post()">转论坛界面</button>
     <script>
         function to_register() {
             //开一个新窗口
@@ -20,6 +21,10 @@
         function to_login() {
             // window.open('./login.html')
             location.href='./login.html'
+        }
+        function to_post() {
+            // window.open('./post.html')
+            location.href='./post.jsp'
         }
     </script>
 </body>
