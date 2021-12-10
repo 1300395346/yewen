@@ -14,7 +14,7 @@
     <title>论坛</title>
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/jquery-ui.css">
-    <script src="js/jquery-3.4.0.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/demo.js"></script>
     <script src="js/login.js"></script>
@@ -24,7 +24,7 @@
     <div id="header">
         <div id="header-content" class="clearfix">
             <div id="logo" class="v-center">
-                <a href="index.html"><img src="images/logo.jpg" alt="logo"></a>
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
             </div>
             <div id="searchbar" class="v-center">
                 <!--            <input type="text" name="search" id="search">
@@ -114,7 +114,7 @@
 
     <div id="nav_right">
         <ul>
-            <li><a href="listPosts.jsp">个人中心</button></li>
+            <li><a href="listPosts.jsp">个人中心</a></li>
             <li><a href="#">返回顶部</a></li>
         </ul>
 
